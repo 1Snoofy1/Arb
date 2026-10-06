@@ -1,0 +1,23 @@
+[
+  {
+    "id": "demo-poly-1",
+    "question": "Demo only: will sample indicator exceed 100?",
+    "conditionId": "demo-condition",
+    "events": [{"id": "demo-poly-event"}],
+    "description": "SYNTHETIC TEST MARKET. No real event or tradable instrument.",
+    "active": true,
+    "closed": false,
+    "archived": false,
+    "outcomes": "[\"Yes\", \"No\"]",
+    "outcomePrices": "[\"0.42\", \"0.58\"]",
+    "clobTokenIds": "[\"demo-yes-token\", \"demo-no-token\"]",
+    "endDate": "2030-12-31T23:59:59Z",
+    "updatedAt": "2026-10-01T12:00:00Z"
+  },
+  {
+    "id": "demo-poly-closed",
+    "question": "Demo closed market",
+    "active": false,
+    "closed": true
+  }
+]
