@@ -1,0 +1,25 @@
+{
+  "markets": [
+    {
+      "ticker": "DEMO-KALSHI-1",
+      "event_ticker": "DEMO-KALSHI-EVENT",
+      "title": "Demo only: will sample indicator exceed 100?",
+      "market_type": "binary",
+      "status": "active",
+      "yes_bid_dollars": "0.4100",
+      "yes_ask_dollars": "0.4400",
+      "no_bid_dollars": "0.5600",
+      "no_ask_dollars": "0.5900",
+      "last_price_dollars": "0.4300",
+      "close_time": "2030-12-31T23:59:59Z",
+      "rules_primary": "SYNTHETIC TEST MARKET. No real event or tradable instrument.",
+      "rules_secondary": "Same demo title does not establish equivalence with another venue."
+    },
+    {
+      "ticker": "DEMO-KALSHI-CLOSED",
+      "title": "Demo settled market",
+      "status": "settled"
+    }
+  ],
+  "cursor": ""
+}
